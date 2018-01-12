@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 RUN apk add git=2.15.0-r1 \
     --repository https://dl-cdn.alpinelinux.org/alpine/edge/main \
     --no-cache
